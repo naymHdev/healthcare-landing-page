@@ -8,14 +8,14 @@ import image3 from "../../../public/Rectangle 27.png";
 const Services = () => {
   return (
     <>
-      <div className=" max-w-7xl mx-auto px-4 md:px-8 mt-20 mb-16">
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className=" max-w-7xl mx-auto px-4 md:px-8 mt-20 md:mt-36 mb-16">
+        <section className="bg-[#FFFFF5] p-5 rounded-[32px] grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10">
           <div>
             <button className=" px-5 py-2 rounded-full text-[#4D4C7B] border border-[#4D4C7B] ">
               Service
             </button>
             <h3 className=" text-4xl leading-[54px] mt-5">
-              We Help To Get Soultions
+              Empowering Health, Enriching Lives
             </h3>
             <p className="text-[16px] mt-5">
               We are proud to be a trusted healthcare provider in our community,
@@ -26,8 +26,12 @@ const Services = () => {
               empathy, ensuring that they receive the attention and care they
               deserve.
             </p>
-            <div className=" mt-10">
-              <Button backgroundColor="bg-[#FDC636]" border="border-none" />
+            <div className=" mt-5 md:mt-10">
+              <Button
+                text="Appointment"
+                backgroundColor="bg-[#FDC636]"
+                border="border-none"
+              />
             </div>
           </div>
           <div>

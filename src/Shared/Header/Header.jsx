@@ -37,7 +37,9 @@ const Header = () => {
           </nav>
 
           {/* Button */}
-          <Button border="border border-black" />
+          <div className=" hidden md:block">
+            <Button text="Appointment" border="border border-black" />
+          </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
