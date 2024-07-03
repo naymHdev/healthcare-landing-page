@@ -69,12 +69,7 @@ const Testimonial = () => {
                             {profession}
                           </span>
                         </h4>
-                        <ReactStars
-                          count={5}
-                          //   onChange={ratingChanged}
-                          size={24}
-                          activeColor="#ffd700"
-                        />
+                        <ReactStars value={5} size={24} activeColor="#ffd700" />
                       </div>
                     </div>
                   </div>
