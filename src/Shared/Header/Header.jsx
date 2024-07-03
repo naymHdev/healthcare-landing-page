@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-[#F1F2F4] text-black p-4">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className=" px-4 md:px-8 max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
             <img src="/public/logo dark.png" alt="Logo" className="h-8" />

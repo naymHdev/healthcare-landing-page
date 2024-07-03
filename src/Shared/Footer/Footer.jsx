@@ -9,10 +9,10 @@ const Footer = () => {
     <>
       <footer className="bg-[#020043] text-white py-16">
         {/* Logo */}
-        <div className="flex-shrink-0 px-4 md:container  mx-auto mb-10">
+        <div className="flex-shrink-0 px-4 md:px-8 max-w-7xl  mx-auto mb-10">
           <img src="/public/logo light (1).png" alt="Logo" className="h-8" />
         </div>
-        <div className="px-4 md:container mx-auto text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="px-4 md:px-8 max-w-7xl mx-auto text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div>
               <p>123 Main Street Anytown, USA Postal Code: 12345</p>
