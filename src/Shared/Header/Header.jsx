@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
 import { VscThreeBars } from "react-icons/vsc";
+import Button from "../../Components/Button/Button";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,11 +37,7 @@ const Header = () => {
           </nav>
 
           {/* Button */}
-          <div className="hidden md:block">
-            <button className=" py-2 px-4 rounded-xl border border-black text-black flex items-center gap-1">
-              Appointment <GoArrowUpRight />
-            </button>
-          </div>
+          <Button border="border border-black" />
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">

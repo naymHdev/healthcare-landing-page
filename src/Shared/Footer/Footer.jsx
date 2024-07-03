@@ -12,11 +12,11 @@ const Footer = () => {
         <div className="flex-shrink-0 px-4 md:container  mx-auto mb-10">
           <img src="/public/logo light (1).png" alt="Logo" className="h-8" />
         </div>
-        <div className="px-4 md:container mx-auto text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
+        <div className="px-4 md:container mx-auto text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div>
               <p>123 Main Street Anytown, USA Postal Code: 12345</p>
-              <p className="mt-5">Support: support@oyolloo.com</p>
+              <p className="mt-5 mb-1">Support: support@oyolloo.com</p>
               <p>(Available : 10:00am to 07:00pm)</p>
             </div>
           </div>
