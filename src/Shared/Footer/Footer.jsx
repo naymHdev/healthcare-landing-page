@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { TiSocialLinkedin } from "react-icons/ti";
+import lightLogo from "../../../public/logo light (1).png";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
       <footer className="bg-[#020043] text-white py-16">
         {/* Logo */}
         <div className="flex-shrink-0 px-4 md:px-8 max-w-7xl  mx-auto mb-10">
-          <img src="/public/logo light (1).png" alt="Logo" className="h-8" />
+          <img src={lightLogo} alt="Logo" className="h-8" />
         </div>
         <div className="px-4 md:px-8 max-w-7xl mx-auto text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>

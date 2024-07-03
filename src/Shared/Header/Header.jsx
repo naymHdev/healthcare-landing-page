@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
 import { VscThreeBars } from "react-icons/vsc";
 import Button from "../../Components/Button/Button";
+import darkLogo from "../../../public/logo dark.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const Header = () => {
         <div className=" px-4 md:px-8 max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src="/public/logo dark.png" alt="Logo" className="h-8" />
+            <img src={darkLogo} alt="Logo" className="h-8" />
           </div>
 
           {/* Navigation */}
