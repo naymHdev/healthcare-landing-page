@@ -5,7 +5,7 @@ export const testimonialInfo = [
     review:
       "I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.",
     profileImage: "/public/p2.jpeg",
-    name: "Sarah D",
+    name: "Sarah D,",
     profession: "IT Professional",
   },
   {
@@ -32,7 +32,7 @@ export const testimonialInfo = [
     review:
       "I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.",
     profileImage: "/public/p2.jpeg",
-    name: "Sarah D",
+    name: "Sarah D,",
     profession: "IT Professional",
   },
   {
