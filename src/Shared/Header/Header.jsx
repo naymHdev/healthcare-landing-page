@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { GoArrowUpRight } from "react-icons/go";
+import { VscThreeBars } from "react-icons/vsc";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,11 +12,11 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-gray-800 text-white p-4">
+      <header className="bg-[#F1F2F4] text-black p-4">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src="/path/to/logo.png" alt="Logo" className="h-8 w-8" />
+            <img src="/public/logo dark.png" alt="Logo" className="h-8" />
           </div>
 
           {/* Navigation */}
@@ -22,44 +24,28 @@ const Header = () => {
             <Link to="/" className="hover:text-gray-400">
               Home
             </Link>
-            <Link to="/about" className="hover:text-gray-400">
-              About
-            </Link>
-            <Link to="/services" className="hover:text-gray-400">
+            <Link to="#" className="hover:text-gray-400">
               Services
             </Link>
-            <Link to="/contact" className="hover:text-gray-400">
-              Contact
+            <Link to="#" className="hover:text-gray-400">
+              Blog
+            </Link>
+            <Link to="#" className="hover:text-gray-400">
+              About us
             </Link>
           </nav>
 
           {/* Button */}
           <div className="hidden md:block">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              Sign Up
+            <button className=" py-2 px-4 rounded-xl border border-black text-black flex items-center gap-1">
+              Appointment <GoArrowUpRight />
             </button>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
-            <button
-              onClick={toggleMenu}
-              className="text-white focus:outline-none"
-            >
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
-              </svg>
+            <button onClick={toggleMenu}>
+              <VscThreeBars className=" text-xl text-black" />
             </button>
           </div>
         </div>
@@ -71,18 +57,19 @@ const Header = () => {
               <Link to="/" className="hover:text-gray-400">
                 Home
               </Link>
-              <Link to="/about" className="hover:text-gray-400">
-                About
-              </Link>
-              <Link to="/services" className="hover:text-gray-400">
+              <Link to="#" className="hover:text-gray-400">
                 Services
               </Link>
-              <Link to="/contact" className="hover:text-gray-400">
-                Contact
+              <Link to="#" className="hover:text-gray-400">
+                Blog
               </Link>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">
-                Sign Up
-              </button>
+              <Link to="#" className="hover:text-gray-400">
+                About us
+              </Link>
+              <div className=" flex items-center justify-center gap-2 border border-black rounded-xl py-1 hover:cursor-pointer">
+                <p>Appointment</p>
+                <GoArrowUpRight />
+              </div>
             </nav>
           </div>
         )}
