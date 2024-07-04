@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        appointment: "url('/public/Rectangle 32.png')",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
