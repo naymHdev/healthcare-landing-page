@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
+import mission from "../../../public/Rectangle 24.png";
 
 const HealthCareSection = () => {
   return (
@@ -31,7 +32,7 @@ const HealthCareSection = () => {
         <div className=" relative">
           <img
             className=" w-full object-cover object-center"
-            src="/public/Rectangle 24.png"
+            src={mission}
             alt=""
           />
           <div className="bg-[#343268] text-white absolute rounded-[30px] p-4 md:py-12 md:px-8 md:w-8/12 -bottom-8 md:-bottom-5 md:-left-[70px]">
