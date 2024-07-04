@@ -11,7 +11,7 @@ const AccordionItem = ({ title, children }) => {
         onClick={() => setIsOpen(!isOpen)}
         className="flex justify-between items-center w-full p-4 focus:outline-none bg-[#FEFEF7]"
       >
-        <span className="text-lg font-medium">{title}</span>
+        <span className="md:text-lg font-medium text-start">{title}</span>
         <span>{isOpen ? <PiCaretUpThin /> : <PiCaretDownLight />}</span>
       </button>
       {isOpen && <div className="p-4">{children}</div>}

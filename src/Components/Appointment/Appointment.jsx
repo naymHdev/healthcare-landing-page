@@ -11,11 +11,11 @@ const Appointment = () => {
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 rounded-[32px] md:flex justify-between text-white">
-          <div className=" md:order-last p-10">
+          <div className=" md:order-last p-5 md:p-10">
             <img src={logo} alt="logo" />
           </div>
-          <div className="bg-gradient-to-r from-[#070546] via-[#1D1B56] via-30% rounded-[32px]">
-            <div className="mt-8 md:mt-[80px] p-10">
+          <div className="md:bg-gradient-to-r from-[#070546] via-[#1D1B56] via-30% rounded-[32px]">
+            <div className="mt-8 md:mt-[80px] px-5 md:p-10">
               <div className="text-3xl md:text-5xl font-semibold space-y-2">
                 <p>Get Your</p>
                 <p>First Appointment</p>
